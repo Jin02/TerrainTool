@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Sunas">
+</Property><Property Name="Solution File" Value="E:\Develop\Aven\trunk\Sunas\Sunas.sln">
+</Property><Property Name="User Options File" Value="E:\Develop\Aven\trunk\Sunas\Sunas.suo">
+</Property><Property Name="Date" Value="2012년 5월 11일 금요일">
+</Property><Property Name="Time" Value="오후 23:20">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Sunas.sln" Description="File successfully backed up as E:\Develop\Aven\trunk\Sunas\Sunas.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="Sunas.suo" Description="File successfully backed up as E:\Develop\Aven\trunk\Sunas\Sunas.suo.old">
+</Event><Event ErrorLevel="0" Project="Sunas" Source="Sunas\Sunas.vcproj" Description="Converting project file 'E:\Develop\Aven\trunk\Sunas\Sunas\Sunas.vcproj'.">
+</Event><Event ErrorLevel="2" Project="Sunas" Source="Sunas\Sunas.vcproj" Description="File 'E:\Develop\Aven\trunk\Sunas\Sunas\Sunas.vcproj' was not found.">
+</Event><Event ErrorLevel="2" Project="Sunas" Source="Sunas\Sunas.vcproj" Description="Project upgrade failed.">
+</Event><Event ErrorLevel="3" Project="Sunas" Source="Sunas\Sunas.vcproj" Description="Not Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Sunas.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Sunas.sln" Description="Converted">
+</Event></UpgradeLog>

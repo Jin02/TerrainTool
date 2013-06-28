@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Sunas">
+</Property><Property Name="Solution File" Value="E:\Develop\Aven\trunk\Sunas\Sunas.sln">
+</Property><Property Name="User Options File" Value="E:\Develop\Aven\trunk\Sunas\Sunas.suo">
+</Property><Property Name="Date" Value="2012년 5월 11일 금요일">
+</Property><Property Name="Time" Value="오후 23:21">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="Sunas.sln" Description="Error creating backup file: E:\Develop\Aven\trunk\Sunas\Sunas.sln.old">
+</Event><Event ErrorLevel="2" Project="" Source="Sunas.suo" Description="Error creating backup file: E:\Develop\Aven\trunk\Sunas\Sunas.suo.old">
+</Event><Event ErrorLevel="3" Project="Sunas" Source="Sunas\Sunas.vcproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="Sunas.sln" Description="The solution file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="" Source="Sunas.sln" Description="No Conversion Required">
+</Event></UpgradeLog>

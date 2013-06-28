@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{645995DD-0D63-468C-98CD-6CB28B3A4D45}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Sunas</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files\Microsoft DirectX SDK %28March 2009%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AVAlphaTexture.cpp" />
+    <ClCompile Include="AVBase.cpp" />
+    <ClCompile Include="AVCamera.cpp" />
+    <ClCompile Include="AVDialogBox.cpp" />
+    <ClCompile Include="AVDirector.cpp" />
+    <ClCompile Include="AVFrustum.cpp" />
+    <ClCompile Include="AVPicking.cpp" />
+    <ClCompile Include="AVQuadTree.cpp" />
+    <ClCompile Include="AVSplatting.cpp" />
+    <ClCompile Include="AVSTPreview.cpp" />
+    <ClCompile Include="AVString.cpp" />
+    <ClCompile Include="AVTerrain.cpp" />
+    <ClCompile Include="AVWinD3D.cpp" />
+    <ClCompile Include="AVWindow.cpp" />
+    <ClCompile Include="Dib.cpp" />
+    <ClCompile Include="EditDlg.cpp" />
+    <ClCompile Include="Information.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="AVScene.cpp" />
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="NewMap.cpp" />
+    <ClCompile Include="raw.cpp" />
+    <ClCompile Include="Scn_MapTool.cpp" />
+    <ClCompile Include="SharedTexture.cpp" />
+    <ClCompile Include="SplattingDlg.cpp" />
+    <ClCompile Include="TerrainTool.cpp" />
+    <ClCompile Include="ToolInformation.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AVAlphaTexture.h" />
+    <ClInclude Include="AVBase.h" />
+    <ClInclude Include="AVCamera.h" />
+    <ClInclude Include="AVDialogBox.h" />
+    <ClInclude Include="AVDirector.h" />
+    <ClInclude Include="AVFrustum.h" />
+    <ClInclude Include="AVPicking.h" />
+    <ClInclude Include="AVQuadTree.h" />
+    <ClInclude Include="AVSplatting.h" />
+    <ClInclude Include="AVSTPreview.h" />
+    <ClInclude Include="AVString.h" />
+    <ClInclude Include="AVTerrain.h" />
+    <ClInclude Include="AVWinD3D.h" />
+    <ClInclude Include="AVWindow.h" />
+    <ClInclude Include="Dib.h" />
+    <ClInclude Include="EditDlg.h" />
+    <ClInclude Include="GdiplusH.h" />
+    <ClInclude Include="Information.h" />
+    <ClInclude Include="AVScene.h" />
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="NewMap.h" />
+    <ClInclude Include="raw.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scn_MapTool.h" />
+    <ClInclude Include="SharedTexture.h" />
+    <ClInclude Include="SplattingDlg.h" />
+    <ClInclude Include="TerrainTool.h" />
+    <ClInclude Include="ToolInformation.h" />
+    <ClInclude Include="toolTypeDef.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sunas.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

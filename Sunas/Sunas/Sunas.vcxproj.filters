@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MapTool">
+      <UniqueIdentifier>{0aa9b9b0-5d87-4e38-b13e-204c6e98f2e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MainFrame">
+      <UniqueIdentifier>{af0c1486-e30f-4544-b576-7a532545f253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass">
+      <UniqueIdentifier>{407c0161-8215-4e68-af96-41b64dab6648}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\Director">
+      <UniqueIdentifier>{1f056ab0-4854-478e-b668-58263a934607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\Director\D3D">
+      <UniqueIdentifier>{5f20ebab-b114-4d2e-9408-4b8b6638b9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\Director\Window">
+      <UniqueIdentifier>{a9c6b4f2-47c7-4956-b912-217a89733b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\Information">
+      <UniqueIdentifier>{5e04410c-2460-4297-9b2e-22a4d1213c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\base">
+      <UniqueIdentifier>{881d2c9e-1db8-470a-8868-65091300771e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\Scene">
+      <UniqueIdentifier>{a5ba3763-d2cf-4f3d-b347-291bf5cd18ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\camera">
+      <UniqueIdentifier>{b977b80f-28d9-472b-a3c8-b057ba82e473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\terrain">
+      <UniqueIdentifier>{603acd6f-ad52-4d21-8004-f6631e74c0f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\terrain\dib">
+      <UniqueIdentifier>{d420c4d0-078b-4f95-a8db-004659d71343}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\terrain\raw">
+      <UniqueIdentifier>{af3bdb29-bc94-4078-bb8b-3fe6f441843e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\terrain\QuadTree">
+      <UniqueIdentifier>{db69df33-25a6-48a7-8f82-46c94a1d5db2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\terrain\Splatting">
+      <UniqueIdentifier>{ce070f8a-5aa2-44f1-a86a-372f099614ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\terrain\Splatting\Alpha Texture">
+      <UniqueIdentifier>{630d5caa-f57a-4d21-a3e8-ae4640a13fc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\Frustum">
+      <UniqueIdentifier>{f56e174f-3684-498c-86e8-d10b78149c9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\font">
+      <UniqueIdentifier>{80048527-464b-417e-80f6-8c2e0f90d2f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\font\string">
+      <UniqueIdentifier>{694dd6a0-a097-4095-b147-34feb056a638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\Picking">
+      <UniqueIdentifier>{a35f6512-f242-4e20-a4bd-2de6967445ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolWindow">
+      <UniqueIdentifier>{df350d2b-b23d-464e-9a21-a005f366edfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{1c9bf085-1b87-4a7c-99d8-889f10ae82fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolWindow\EditHeight">
+      <UniqueIdentifier>{3e167f88-efe7-4d55-ae09-641a8edc4ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolWindow\Texture">
+      <UniqueIdentifier>{1890da64-24b0-4144-b056-e552b486a14d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\Director\Dialog">
+      <UniqueIdentifier>{02f035e9-1146-4c66-b594-c48de9415333}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVBaseClass\SharedTexture">
+      <UniqueIdentifier>{90619375-4943-43dc-86af-bf5f8771e69e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\typeDef">
+      <UniqueIdentifier>{93ca6969-62a1-43fe-9ed8-95ce42c76183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\2DRender">
+      <UniqueIdentifier>{d591aa96-2bcc-41ce-97f7-e51fc6365593}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolWindow\NewMap">
+      <UniqueIdentifier>{5f2e8185-d46f-4548-a533-3b0687a395ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ToolInformation">
+      <UniqueIdentifier>{ad8acdc7-56bc-4ec9-8b08-f4ea81e501f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AVWinD3D.cpp">
+      <Filter>AVBaseClass\Director\D3D</Filter>
+    </ClCompile>
+    <ClCompile Include="AVDirector.cpp">
+      <Filter>AVBaseClass\Director</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Information.cpp">
+      <Filter>AVBaseClass\Information</Filter>
+    </ClCompile>
+    <ClCompile Include="AVBase.cpp">
+      <Filter>AVBaseClass\base</Filter>
+    </ClCompile>
+    <ClCompile Include="AVScene.cpp">
+      <Filter>AVBaseClass\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scn_MapTool.cpp">
+      <Filter>Source Files\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="AVCamera.cpp">
+      <Filter>AVBaseClass\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Dib.cpp">
+      <Filter>AVBaseClass\terrain\dib</Filter>
+    </ClCompile>
+    <ClCompile Include="raw.cpp">
+      <Filter>AVBaseClass\terrain\raw</Filter>
+    </ClCompile>
+    <ClCompile Include="AVTerrain.cpp">
+      <Filter>AVBaseClass\terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="AVQuadTree.cpp">
+      <Filter>AVBaseClass\terrain\QuadTree</Filter>
+    </ClCompile>
+    <ClCompile Include="AVFrustum.cpp">
+      <Filter>AVBaseClass\Frustum</Filter>
+    </ClCompile>
+    <ClCompile Include="AVString.cpp">
+      <Filter>AVBaseClass\font\string</Filter>
+    </ClCompile>
+    <ClCompile Include="AVPicking.cpp">
+      <Filter>AVBaseClass\Picking</Filter>
+    </ClCompile>
+    <ClCompile Include="AVAlphaTexture.cpp">
+      <Filter>AVBaseClass\terrain\Splatting\Alpha Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="AVSplatting.cpp">
+      <Filter>AVBaseClass\terrain\Splatting</Filter>
+    </ClCompile>
+    <ClCompile Include="AVWindow.cpp">
+      <Filter>AVBaseClass\Director\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>Source Files\MainFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainTool.cpp">
+      <Filter>Source Files\ToolWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDlg.cpp">
+      <Filter>Source Files\ToolWindow\EditHeight</Filter>
+    </ClCompile>
+    <ClCompile Include="SplattingDlg.cpp">
+      <Filter>Source Files\ToolWindow\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="AVDialogBox.cpp">
+      <Filter>AVBaseClass\Director\Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="SharedTexture.cpp">
+      <Filter>AVBaseClass\SharedTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="AVSTPreview.cpp">
+      <Filter>Header Files\2DRender</Filter>
+    </ClCompile>
+    <ClCompile Include="NewMap.cpp">
+      <Filter>Source Files\ToolWindow\NewMap</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolInformation.cpp">
+      <Filter>Source Files\ToolInformation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AVWinD3D.h">
+      <Filter>AVBaseClass\Director\D3D</Filter>
+    </ClInclude>
+    <ClInclude Include="AVDirector.h">
+      <Filter>AVBaseClass\Director</Filter>
+    </ClInclude>
+    <ClInclude Include="Information.h">
+      <Filter>AVBaseClass\Information</Filter>
+    </ClInclude>
+    <ClInclude Include="AVBase.h">
+      <Filter>AVBaseClass\base</Filter>
+    </ClInclude>
+    <ClInclude Include="AVScene.h">
+      <Filter>AVBaseClass\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scn_MapTool.h">
+      <Filter>Source Files\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="AVCamera.h">
+      <Filter>AVBaseClass\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Dib.h">
+      <Filter>AVBaseClass\terrain\dib</Filter>
+    </ClInclude>
+    <ClInclude Include="raw.h">
+      <Filter>AVBaseClass\terrain\raw</Filter>
+    </ClInclude>
+    <ClInclude Include="AVTerrain.h">
+      <Filter>AVBaseClass\terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="AVQuadTree.h">
+      <Filter>AVBaseClass\terrain\QuadTree</Filter>
+    </ClInclude>
+    <ClInclude Include="AVFrustum.h">
+      <Filter>AVBaseClass\Frustum</Filter>
+    </ClInclude>
+    <ClInclude Include="AVString.h">
+      <Filter>AVBaseClass\font\string</Filter>
+    </ClInclude>
+    <ClInclude Include="AVPicking.h">
+      <Filter>AVBaseClass\Picking</Filter>
+    </ClInclude>
+    <ClInclude Include="AVAlphaTexture.h">
+      <Filter>AVBaseClass\terrain\Splatting\Alpha Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="AVSplatting.h">
+      <Filter>AVBaseClass\terrain\Splatting</Filter>
+    </ClInclude>
+    <ClInclude Include="AVWindow.h">
+      <Filter>AVBaseClass\Director\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>Source Files\MainFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainTool.h">
+      <Filter>Source Files\ToolWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDlg.h">
+      <Filter>Source Files\ToolWindow\EditHeight</Filter>
+    </ClInclude>
+    <ClInclude Include="SplattingDlg.h">
+      <Filter>Source Files\ToolWindow\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="toolTypeDef.h">
+      <Filter>Header Files\typeDef</Filter>
+    </ClInclude>
+    <ClInclude Include="AVDialogBox.h">
+      <Filter>AVBaseClass\Director\Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedTexture.h">
+      <Filter>AVBaseClass\SharedTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="AVSTPreview.h">
+      <Filter>Header Files\2DRender</Filter>
+    </ClInclude>
+    <ClInclude Include="NewMap.h">
+      <Filter>Source Files\ToolWindow\NewMap</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolInformation.h">
+      <Filter>Source Files\ToolInformation</Filter>
+    </ClInclude>
+    <ClInclude Include="GdiplusH.h">
+      <Filter>AVBaseClass\Director\Dialog</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Sunas.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
